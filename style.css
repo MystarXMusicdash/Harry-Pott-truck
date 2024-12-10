@@ -1,0 +1,256 @@
+html, body {
+
+    padding:0;
+    margin:0;
+    background-color: burlywood;
+    scroll-behavior: smooth;
+}
+
+:target {
+
+    scroll-margin-top: 200px;
+}
+
+header {
+
+    position:fixed;
+    border:2px solid black;
+    padding:40px;
+    width: 100%;
+    background-color: #b38d78;
+    z-index: 1;
+    
+}
+
+#menus {
+
+    display: inline;
+    padding-left: 5%;
+    font-size: 30px;
+}
+
+#localisation {
+
+    display: inline;
+    padding-left: 10%;
+    font-size: 30px;
+}
+
+#horaires {
+
+    display: inline;
+    padding-left:28%;
+    font-size: 30px;
+}
+
+#contacts {
+
+    display: inline;
+    padding-left: 10%;
+    font-size: 30px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+#logo {
+
+    position:fixed;
+    left: 560px;
+    z-index: 1;
+    border: 20%;
+    top: 25px;
+
+}
+
+#logoharry {
+
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+
+#titreintro {
+
+    font-size: 35px;
+}
+
+#intro {
+
+    border: 2px solid black;
+    margin-left:25%;
+    margin-right:25%;
+    position: relative;
+    text-align: center;
+    top: 250px;
+    margin-bottom: 342px;
+    padding: 10px;
+    background-color: #b38d78;
+
+}
+
+
+#nosmenus {
+
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#griffondor {
+
+    border: solid 2px black;
+    width: 250px;
+    height: 350px;
+    margin-left: 17%;
+    text-align: center;
+    background-color: #b38d78;
+}
+
+#griffondorimage {
+
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+}
+
+#serpentard {
+
+    border: solid 2px black;
+    width: 250px;
+    height: 350px;
+    margin-left: 63%;
+    position: absolute;
+    top: 670px;
+    text-align: center;
+    background-color: #b38d78;
+
+}
+
+#serpentardimage {
+
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+}
+
+#serdaigle {
+
+    border: solid 2px black;
+    width: 250px;
+    height: 350px;
+    margin-left: 17%;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #b38d78;
+
+}
+
+#serdaigleimage {
+
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+}
+
+#poufsouffle {
+
+    border: solid 2px black;
+    width: 250px;
+    height: 350px;
+    margin-left: 63%;
+    position: absolute;
+    top: 1180px;
+    text-align: center;
+    background-color: #b38d78;
+
+}
+
+#poufsouffleimage {
+
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+}
+
+#carte {
+
+    border: solid 2px black;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 100px;
+    background-color: #b38d78;
+}
+
+#localisation {
+
+    text-align: center;
+}
+
+#googlemaps{
+    position: relative;
+    text-align: right;
+    height: 350px;
+    width: 480px;
+    top: 100px;
+    margin-left: 40px;
+}
+
+#gmap_canva{
+    overflow: hidden;
+    height: 350px;
+    width: 480px;
+}
+
+#locatitre {
+
+    text-align: center;
+}
+
+#texteloca {
+
+    position: relative;
+    margin-left: 60%;
+    bottom: 130px;
+    font-size: 20px;
+    margin-bottom: 90px;
+}
+
+footer {
+
+    border: solid 2px black;
+    background-color: #b38d78;
+    padding-bottom: 151px;
+}
+
+.liensfinaux {
+
+    color: black;
+    display: block;
+}
+
+#noscontacts {
+
+    position: absolute;
+    border: solid 2px black;
+    top: 2403px;
+    left: 1100px;
+    padding-right: 35px;
+    padding-bottom: 19px;
+}
+
+#listecontacts {
+
+    color: black;
+}
+
+#lienpropos {
+
+    color: black;
+}

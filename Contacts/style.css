@@ -1,0 +1,92 @@
+html, body {
+
+    padding:0;
+    margin:0;
+    background-color: burlywood;
+}
+
+header {
+
+    position:fixed;
+    border:2px solid black;
+    padding:40px;
+    width: 100%;
+    background-color: #b38d78;
+    z-index: 1;
+    
+}
+
+#menus {
+
+    display: inline;
+    padding-left: 5%;
+    font-size: 30px;
+}
+
+#localisation {
+
+    display: inline;
+    padding-left: 10%;
+    font-size: 30px;
+}
+
+#horaires {
+
+    display: inline;
+    padding-left:28%;
+    font-size: 30px;
+}
+
+#contacts {
+
+    display: inline;
+    padding-left: 10%;
+    font-size: 30px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+#logo {
+
+    position:fixed;
+    left: 560px;
+    z-index: 1;
+    border: 20%;
+    top: 25px;
+
+}
+
+#logoharry {
+
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+
+#nouscontacter {
+
+    position: relative;
+    border: solid 2px black;
+    width: 50%;
+    margin-left: 25%;
+    top: 200px;
+    background-color: #b38d78;
+
+}
+
+h3 {
+
+    text-align: center;
+    font-size: 50px;
+}
+
+li {
+    font-size: 35px;
+    padding-left: 180px;
+}
